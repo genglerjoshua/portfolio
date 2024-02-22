@@ -1,7 +1,7 @@
 h1 {
     color: #cbc8d8;
     font-family: 'Lato', sans-serif;
-    font-size: 5vmax;
+    font-size: 4.5vmax;
     font-weight: 100;
     font-style: normal;
     line-height: 1em;
@@ -61,8 +61,8 @@ body {
     background-position: top left;
 }
 
-.menu-top {
-    margin-top: 20px;
+.navbar {
+    background-color: #011222;
 }
 
 .font-spacing {
@@ -74,9 +74,9 @@ body {
     border-radius: 25px;
     margin-top: 100px;
     margin-bottom: 70px;
-    background-color: navy;
+    background-color: #011222;
     margin-bottom: 70px;
-    box-shadow: 7px 5px 30px black;
+    box-shadow: 7px 5px 30px rgba(0, 0, 0, 0.8);
 }
 
 .mid-box-gold {
@@ -87,8 +87,7 @@ body {
 }
 
 .mid-box {
-    background-color: navy;
-    opacity: 80%;
+    background-color: #011222;
     padding: 60px;
     border-radius: 15px;
     text-align: center;
@@ -111,7 +110,7 @@ body {
 
 .resume {
     height: 100px;
-    background-color: navy;
+    background-color: #011222;
 }
 
 .projects {
@@ -120,7 +119,7 @@ body {
 
 .contact {
     height: 100px;
-    background-color: navy;
+    background-color: #011222;
 }
 
 .icon-box {
@@ -142,5 +141,3 @@ body {
     opacity: .7;
     color: #cbc8d8;
 }
-
-f
