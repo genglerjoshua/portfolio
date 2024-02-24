@@ -15,7 +15,7 @@ h1 {
 }
 
 h3 {
-    color: #cbc8d8;
+    color: #FEDB37;
     font-size: 15px;
     font-weight: 400;
     font-style: normal;
@@ -24,7 +24,6 @@ h3 {
     text-decoration: none;
     display: inline-block;
     width: 100%;
-    margin-bottom: 66px;
     margin-top: 10px;
 }
 
@@ -42,27 +41,34 @@ h4 {
     letter-spacing: 2px
 }
 
+body {
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.navbar {
+    background-color: #011222;
+}
+
 .nav-link {
     font-family: 'Lato', sans-serif;
     font-weight: 500;
 }
 
-.mid-box-email {
-    width: 100%;
+.nav-link {
+    color: white;
 }
 
-body,
-html {
-    height: 95%;
-}
-
-body {
-    background-color: white;
-    background-position: top left;
-}
-
-.navbar {
-    background-color: #011222;
+.navbar-nav .nav-link:hover {
+    color: #FEDB37;
 }
 
 .font-spacing {
@@ -72,10 +78,9 @@ body {
 .mid-box-blue {
     padding: 5px;
     border-radius: 25px;
-    margin-top: 100px;
-    margin-bottom: 70px;
+    margin-top: 90px;
+    margin-bottom: 90px;
     background-color: #011222;
-    margin-bottom: 70px;
     box-shadow: 7px 5px 30px rgba(0, 0, 0, 0.8);
 }
 
@@ -88,45 +93,45 @@ body {
 
 .mid-box {
     background-color: #011222;
-    padding: 60px;
     border-radius: 15px;
     text-align: center;
+    padding-top: 60px;
 }
 
 @media screen and (max-width: 576px) {
-    .mid-box {
+    .mid-box-blue {
         margin-right: 10%;
         margin-left: 10%;
     }
+
+    .mid-box-email {
+        font-size: 70%;
+    }
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
-    color: #cbc8d8;
+.mid-box-email {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .mid-box-email:hover {
-    color: #7c69c9;
+    color: #FEDB37;
 }
 
-.resume {
-    height: 100px;
-    background-color: #011222;
-}
-
-.projects {
-    height: 100px;
-}
-
-.contact {
-    height: 100px;
+.project-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 500px;
+    width: 19%;
+    min-width: 250px;
+    margin: 5px;
+    border-radius: 20px;
     background-color: #011222;
 }
 
 .icon-box {
-    position: absolute;
-    top: 93%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     width: 50%;
     text-align: center;
 }
@@ -138,6 +143,28 @@ body {
 }
 
 .icon:hover {
-    opacity: .7;
-    color: #cbc8d8;
+    color: white;
+}
+
+/* scroll animation when clicking on navbar items*/
+
+#about {
+    display: flex;
+    padding: 20px;
+    height: 100px;
+    color: white;
+    background-color: #011222;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: #011222;
 }

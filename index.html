@@ -36,9 +36,9 @@
 
     <!-- navbar -->
 
-    <nav class="autohide navbar navbar-expand-md navbar-dark">
+    <nav class="autohide navbar navbar-expand-md">
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <button class="navbar-dark navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -46,22 +46,22 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item mx-1">
-                        <a class="nav-link font-spacing" aria-current="page" href="#">
-                            HOME
+                        <a class="nav-link font-spacing" aria-current="page" href="#top">
+                            Home
                         </a>
                     </li>
                     <li class="nav-item  mx-1">
-                        <a class="nav-link font-spacing" aria-current="page" href="#">
+                        <a class="nav-link font-spacing" aria-current="page" href="#resume">
                             Resume
                         </a>
                     </li>
                     <li class="nav-item  mx-1">
-                        <a class="nav-link font-spacing" aria-current="page" href="#">
+                        <a class="nav-link font-spacing" aria-current="page" href="#projects">
                             Projects
                         </a>
                     </li>
                     <li class="nav-item  mx-1">
-                        <a class="nav-link font-spacing" aria-current="page" href="#">
+                        <a class="nav-link font-spacing" aria-current="page" href="#contact">
                             Contact
                         </a>
                     </li>
@@ -72,11 +72,9 @@
 
     <!-- title box -->
 
-    <main class="container-fluid">
+    <main>
         <section class="row align-items-center">
-            <div class="col-xl-4 col-lg-3 col-md-2 col-sm-2">
-
-            </div>
+            <div class="col-xl-4 col-lg-3 col-md-2 col-sm-2"></div>
             <div class="col-xl-4 col-lg-6 col-md-8 col-sm-8">
                 <div class="mid-box-blue">
                     <div class="mid-box-gold">
@@ -91,26 +89,38 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-3 col-md-2 col-sm-2">
+            <div class="col-xl-4 col-lg-3 col-md-2 col-sm-2"></div>
+        </section>
 
+        <!-- About Section -->
+
+        <section id="about">
+            <!-- add a short desciption "cv" about how my vfx transitions into web and
+                add an icon for a download cv pdf? -->
+                Hi give me a job right meow! If you are curious about my VFX work, click here!
+        </section>
+
+        <!-- Projects Section -->
+
+        <section id="projects">
+            <div class="inline-flex h-100 row justify-content-center align-items-center">
+                <!-- add icons or something to represent the projects -->
+                <div class="project-card"></div>
+                <div class="project-card"></div>
+                <div class="project-card"></div>
+                <div class="project-card"></div>
+                <div class="project-card"></div>
             </div>
         </section>
-        <section class="resume"></section>
-        <section class="projects"></section>
-        <section class="contact">
+
+        <!-- Contact Section -->
+
+        <section id="contact">
             <div class="icon-box">
-                <a href="https://www.linkedin.com/in/joshuagengler/">
-                    <i class="fa-brands fa-linkedin icon"></i>
-                </a>
-                <a href="https://www.imdb.com/name/nm3159072/?ref_=fn_al_nm_1">
-                    <i class="fa-brands fa-github icon"></i>
-                </a>
-                <a href="https://vimeo.com/user17613154">
-                    <i class="fa-brands fa-vimeo icon"></i>
-                </a>
-                <a href="mailto:genglerjoshua@gmail.com">
-                    <i class="fa-solid fa-envelope icon"></i>
-                </a>
+                <a class="fa-brands fa-linkedin icon" href="https://www.linkedin.com/in/joshuagengler/"></a>
+                <a class="fa-brands fa-imdb icon" href="https://www.imdb.com/name/nm3159072/?ref_=fn_al_nm_1"></a>
+                <a class="fa-brands fa-vimeo icon" href="https://vimeo.com/user17613154"></a>
+                <a href="mailto:genglerjoshua@gmail.com"><i class="fa-solid fa-envelope icon"></i></a>
             </div>
         </section>
     </main>
