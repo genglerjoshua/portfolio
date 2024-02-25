@@ -36,7 +36,7 @@
 
     <!-- navbar -->
 
-    <nav class="autohide fixed-top navbar navbar-expand-md">
+    <nav class="fixed-top navbar navbar-expand-md">
         <div class="container-fluid">
             <button class="navbar-dark navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -73,7 +73,7 @@
     <!-- title box -->
 
     <main>
-        <section class="row align-items-center">
+        <section id="main" class="row align-items-center">
             <div class="col-xl-4 col-lg-3 col-md-2 col-sm-2"></div>
             <div class="col-xl-4 col-lg-6 col-md-8 col-sm-8">
                 <div class="mid-box-blue">
@@ -85,6 +85,8 @@
                             <a href="mailto:genglerjoshua@gmail.com">
                                 <h4 class="mid-box-email">GENGLERJOSHUA@GMAIL.COM</h4>
                             </a>
+                            <a class="fa-brands fa-linkedin mid-box-icon" href="https://www.linkedin.com/in/joshuagengler/"></a>
+                            <a class="fa-brands fa-github mid-box-icon" href=""><i class="bi bi-github"></i></a>
                         </div>
                     </div>
                 </div>
@@ -94,73 +96,121 @@
 
         <!-- About Section -->
 
-        <section id="about">
-            <h2>About Me</h2>
-            <!-- add a short desciption "cv" about how my vfx transitions into web and
-                add an icon for a download cv pdf? -->
-                Welcome to my portfolio! With a foundation in visual effects and a passion for creating captivating digital experiences, I'm on a journey to seamlessly blend creativity with technology as a front-end developer. If you are curious about my VFX work, click here, if not enjoy my portfolio.
+        <section id="about" class="row align-items-center">
+            <div class="col-xl-2 col-lg-1 col-md-1 col-sm-1"></div>
+                <div class="col-xl-8 col-lg-10 col-md-10 col-sm-10">
+                    <h2>About Me</h2>
+                    <!-- add a short desciption "cv" about how my vfx transitions into web and
+                     add an icon for a download cv pdf? -->
+                    <p>Welcome to my portfolio! With a foundation in visual effects and a passion for creating captivating digital experiences, I'm on a journey to seamlessly blend creativity with technology as a front-end developer. If you are curious about my VFX work, click here, otherwise enjoy my portfolio.</p>
+                    <!-- <a class="fa-brands fa-imdb icon" href="https://www.imdb.com/name/nm3159072/?ref_=fn_al_nm_1"></a>
+                    <a class="fa-brands fa-vimeo icon" href="https://vimeo.com/user17613154"></a> -->
+                </div>
+            <div class="col-xl-2 col-lg-1 col-md-1 col-sm-1"></div>
         </section>
 
         <!-- Projects Section -->
 
-        <section id="projects">
-            <h2 class="project-section-title">Projects</h2>
-            <div class="inline-flex h-100 row justify-content-center align-items-center">
-                <!-- add icons or something to represent the projects -->
-                <div class="project-card">
-                    <p class="project-title">VRinMotion</p>
-                    <!-- Add Graphic -->
-                    <img class="project-img" src="/images/jg_logo.png">
-                    <p class="project-description">My duties included: Creating the basic elements for the website, creating the 3D exploding view of the trailer, and gathering material.</p>
-                    <p class="project-languages">HTML - CSS</p>
+        <section id="projects" class="row align-items-center">
+            <div class="col-xl-2 col-lg-1 col-md-1 col-sm-1"></div>
+                <div class="col-xl-8 col-lg-10 col-md-10 col-sm-10">
+                    <h2 class="project-section-title">Projects</h2>
+                    <div class="inline-flex h-100 row justify-content-center align-items-center">
+                        <!-- add icons or something to represent the projects -->
+                        <div class="project-card">
+                            <div class="img-box-blue">
+                                <div class="img-box-gold">
+                                    <img class="project-img" src="/images/jg_logo.png">
+                                </div>
+                            </div>
+                            <div class="project-text">
+                                <p class="project-title">VRinMotion</p>
+                                <p class="project-description">My duties included: Creating the basic elements for the website, creating the 3D exploding view of the trailer, and gathering material.</p>
+                                <p class="project-languages">HTML - CSS</p>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-text">
+                                <p class="project-title">theyeatlocals</p>
+                                <p class="project-description">My duties included: Created this entire site for a client. The challenge was the parallax and getting the animation to look natural with that many layers.</p>
+                                <p class="project-languages">HTML - Bootstrap - CSS - JS</p>
+                            </div>
+                            <div class="img-box-blue">
+                                <div class="img-box-gold">
+                                    <img class="project-img" src="/images/jg_logo.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="img-box-blue">
+                                <div class="img-box-gold">
+                                    <img class="project-img" src="/images/jg_logo.png">
+                                </div>
+                            </div>
+                            <div class="project-text">
+                                <p class="project-title">Bear'd</p>
+                                <p class="project-description">My duties included: Created this entire site for a client. The challenge was grouping the shorter strands of hair and animating them to match the longer lines.</p>
+                                <p class="project-languages">HTML - Bootstrap - CSS - JS</p>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-text">
+                                <p class="project-title">MudNotes</p>
+                                <p class="project-description">My duties included: This is a personal notes project for Ceramic Artists. The challenge is how to organize and filter all the different types of notes a ceramic artist needs.</p>
+                                <p class="project-languages">HTML - CSS - JS</p>
+                            </div>
+                            <div class="img-box-blue">
+                                <div class="img-box-gold">
+                                    <img class="project-img" src="/images/jg_logo.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="img-box-blue">
+                                <div class="img-box-gold">
+                                    <img class="project-img" src="/images/jg_logo.png">
+                                </div>
+                            </div>
+                            <div class="project-text">
+                                <p class="project-title">TimeOut Calc</p>
+                                <p class="project-description">My duties included: I developed a web app for a California VFX company to eliminate overtime between projects, benefiting both artists and the company.</p>
+                                <p class="project-languages">HTML - CSS - JS</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="project-card">
-                    <p class="project-title">theyeatlocals</p>
-                    <!-- Add Graphic -->
-                    <img class="project-img" src="/images/jg_logo.png">
-                    <p class="project-description">My duties included: Created this entire site for a client. The challenge was the parallax and getting the animation to look natural with that many layers.</p>
-                    <p class="project-languages">HTML - Bootstrap - CSS - JS</p>
-                </div>
-                <div class="project-card">
-                    <p class="project-title">Bear'd</p>
-                    <!-- Add Graphic -->
-                    <img class="project-img" src="/images/jg_logo.png">
-                    <p class="project-description">My duties included: Created this entire site for a client. The challenge was grouping the shorter strands of hair and animating them to match the longer lines.</p>
-                    <p class="project-languages">HTML - Bootstrap - CSS - JS</p>
-                </div>
-                <div class="project-card">
-                    <p class="project-title">MudNotes</p>
-                    <!-- Add Graphic -->
-                    <img class="project-img" src="/images/jg_logo.png">
-                    <p class="project-description">My duties included: This is a personal notes project for Ceramic Artists. The challenge is how to organize and filter all the different types of notes a ceramic artist needs.</p>
-                    <p class="project-languages">HTML - CSS - JS</p>
-                </div>
-                <div class="project-card">
-                    <p class="project-title">TimeOut Calc</p>
-                    <!-- Add Graphic -->
-                    <img class="project-img" src="/images/jg_logo.png">
-                    <p class="project-description">My duties included: I developed a web app for a California VFX company to eliminate overtime between projects, benefiting both artists and the company.</p>
-                    <p class="project-languages">HTML - CSS - JS</p>
-                </div>
-            </div>
+            <div class="col-xl-2 col-lg-1 col-md-1 col-sm-1"></div>
         </section>
 
         <!-- Contact Section -->
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <div class="icon-box">
-                <a class="fa-brands fa-linkedin icon" href="https://www.linkedin.com/in/joshuagengler/"></a>
-                <a class="fa-brands fa-imdb icon" href="https://www.imdb.com/name/nm3159072/?ref_=fn_al_nm_1"></a>
-                <a class="fa-brands fa-vimeo icon" href="https://vimeo.com/user17613154"></a>
-                <a href="mailto:genglerjoshua@gmail.com"><i class="fa-solid fa-envelope icon"></i></a>
-            </div>
+        <section id="contact" class="row align-items-center">
+            <div class="col-xl-2 col-lg-1 col-md-1 col-sm-1"></div>
+                <div class="col-xl-8 col-lg-10 col-md-10 col-sm-10">
+                    <h2>Contact</h2>
+                    <div class="icon-box">
+                        <a class="fa-brands fa-linkedin icon" href="https://www.linkedin.com/in/joshuagengler/"></a>
+                        <a href="mailto:genglerjoshua@gmail.com"><i class="fa-solid fa-envelope icon"></i></a>
+                    </div>
+                </div>
+            <div class="col-xl-2 col-lg-1 col-md-1 col-sm-1"></div>
         </section>
     </main>
 
 </body>
-<footer>
-Copywrite
+
+<!-- Footer Section -->
+
+<footer class="row align-items-center">
+    <div class="footer-box-gold">
+        <div class="footer-box-blue">
+            <div class="col-xl-2 col-lg-1 col-md-1 col-sm-1"></div>
+                <div class="footer-text col-xl-8 col-lg-10 col-md-10 col-sm-10">
+                    Copyright © 2024. All rights are reserved
+                </div>
+            <div class="col-xl-2 col-lg-1 col-md-1 col-sm-1"></div>
+        </div>
+    </div>
 </footer>
 
 </html>
