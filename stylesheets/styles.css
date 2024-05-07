@@ -270,10 +270,6 @@ footer {
     filter: blur(3px);
 }
 
-.img-box-gold:hover .dim-img {
-    filter: brightness(1) blur(3px);
-}
-
 .img-box-gold:hover .img-box-links {
     opacity: 1;
 }
@@ -326,7 +322,31 @@ footer {
     color: #c4a72a;
 }
 
+.email-temp-card {
+    display: inline-flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin: 20px;
+    Color: #011222;
+}
 
+.email-temp-img {
+    transition: .5s ease;
+    opacity: 1;
+    height: 450px;
+    width: auto;
+    border-radius: 5px;
+}
+
+.img-box-gold:hover .email-temp-img {
+    transition: .5s ease;
+    opacity: .3;
+    filter: blur(3px);
+}
+
+.img-box-gold:hover .dim-img {
+    filter: brightness(1) blur(3px);
+}
 
 /* Contact Section */
 
