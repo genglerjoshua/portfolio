@@ -338,6 +338,25 @@ footer {
     border-radius: 5px;
 }
 
+.email-img-box-links {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.6));
+}
+
 .img-box-gold:hover .email-temp-img {
     transition: .5s ease;
     opacity: .3;
